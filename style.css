@@ -1,10 +1,24 @@
 *{
     background-color: #181D2B;
     font-family: 'Poppins', sans-serif;
+    
 }
 .hero-text{
     color: white;
     text-align: center;
     margin-top: 40px;
+    width: 1440px;
 
+
+}
+.all-box{
+    margin-top: 32px;
+    width: 383px;
+    height: 262px;
+    display: flex;
+    gap: 24px;
+    border: 1px solid white;
+    border-radius: 4px;
+    justify-content: space-between;
+    align-items: center;
 }
