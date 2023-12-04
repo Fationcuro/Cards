@@ -13,12 +13,30 @@
 }
 .all-box{
     margin-top: 32px;
-    width: 383px;
-    height: 262px;
+    /* height: fit-content; */
     display: flex;
     gap: 24px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     border-radius: 4px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+.box-1{
+ margin: 0px, 16px;
+}
+.box-1 img{
+    border-radius: 4px;
+    
+
+}
+.box-1 h5{
+    color: white;
+    font-size: 24px;
+    margin: 16px;
+    
+
+}
+.box-1 p{
+    color: rgb(194, 194, 194);
+    margin: 16px;    
 }
