@@ -5,6 +5,7 @@ body{
 
 .hero-text {
     color: white;
+    font-size: 24px;
     text-align: center;
     margin-top: 40px;
     width: 100%; 
@@ -21,23 +22,28 @@ main{
     border-radius: 4px;
     justify-content: space-between;
     align-items: center;
-    margin: 6px, 0px ;
 }
 
 .box-1 {
-    background-color: rgba(37, 44, 65, 0.8);
+    background-color: rgba(37, 44, 65, 0.2);
     padding: 16px; 
-    border-radius: 4px;
+    border-radius: 8px;
+    margin: 6px, 0px ;
+    border: 1px solid rgb(245, 245, 245, 0.1);
+
 }
 
 .title {
     margin: 12px, 0px;
     color: white;
     font-size: 20px;
+    margin: 16px 0px;
 
 }
 
 .paragraph {
     color: rgb(194, 194, 194);
     font-size: 16px;
+    margin: 16px 0px;
+
 }
