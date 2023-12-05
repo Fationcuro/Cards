@@ -11,26 +11,31 @@ body{
     width: 100%; 
 }
 main{
-    display: grid;
-    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 24px; */
+    align-items: center;
+}
+img{
+    width: 328px;
 }
 
 .all-box {
     margin-top: 32px;
     display: flex;
-    /* gap: 24px; */
-    border-radius: 4px;
-    justify-content: space-between;
-    align-items: center;
+    gap: 24px;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
 }
 
 .box-1 {
     background-color: rgba(37, 44, 65, 0.2);
-    padding: 16px; 
+    padding: 16px;
     border-radius: 8px;
-    margin: 6px, 0px ;
     border: 1px solid rgb(245, 245, 245, 0.1);
+    flex: 1;
+    max-width: 380px;
 
 }
 
