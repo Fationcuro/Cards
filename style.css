@@ -4,6 +4,7 @@ body{
 }
 nav{
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     padding: 16px 24px;
@@ -32,16 +33,18 @@ nav{
 .button{
     display: flex;
     gap: 16px;
+    
 }
 .login-btn{
     width: 80px;
     text-align: center;
     padding: 10px 18px;
     border-radius: 4px;
-    color: white;
-    background-color:rgb(0, 119, 255) ;
+    color: #181D2B;
+    background-color:white ;
     font-size: 16px;
     text-decoration: none;
+    font-weight: 500;
 
 }
 .signup-btn{
@@ -51,8 +54,9 @@ nav{
     text-decoration: none;
     font-size: 16px;
     border-radius: 4px;
-    color: rgb(0, 119, 255);
-    border: 1px solid rgb(0, 119, 255);
+    color:white;
+    font-weight: 500 ;
+    /* border: 1px solid rgb(0, 119, 255); */
 }
 .hero-text {
     color: white;
@@ -87,7 +91,7 @@ img{
     border-radius: 8px;
     border: 1px solid rgb(245, 245, 245, 0.1);
     flex: 1;
-    max-width: 380px;
+    max-width: 330px;
 
 }
 
