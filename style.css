@@ -114,3 +114,10 @@ img{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.other-cards{
+    width: 68.875rem;
+    padding: 16px;
+    background-color: rgba(37, 44, 65, 0.2);
+    border: 1px solid rgb(245, 245, 245, 0.1);
+    border-radius: 8px;
+}
