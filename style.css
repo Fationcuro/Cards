@@ -120,8 +120,10 @@ img{
     background-color: rgba(37, 44, 65, 0.2);
     border: 1px solid rgb(245, 245, 245, 0.1);
     border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
  
 }
 .img-github-copilot{
-    /* width: 0px; */
+    width: 560px;
 }
