@@ -128,6 +128,22 @@ img{
 .img-github-copilot{
     width: 560px;
 }
+.content-footer{
+  border: 1px solid rgb(245, 245, 245, 0.1);
+  width: 68.875rem;
+  border-radius: 8px;
+  padding: 16px ;
+    
+}
+.footer{
+    display: flex;
+    gap: 24px;
+    align-items: baseline;
+    justify-content: space-between;
+}
 .logo-footer{
-    text-align: left;
+    width: 140px;
+}
+.list{
+    margin: 0px;
 }
