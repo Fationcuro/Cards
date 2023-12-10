@@ -129,21 +129,27 @@ img{
     width: 560px;
 }
 .content-footer{
-  border: 1px solid rgb(245, 245, 245, 0.1);
+  border-top: 1px solid rgb(245, 245, 245, 0.1);
   width: 68.875rem;
-  border-radius: 8px;
+  /* border-radius: 8px; */
   padding: 16px ;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
     
 }
 .footer{
-    display: flex;
-    gap: 24px;
+    /* display: grid;
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 .logo-footer{
     width: 140px;
 }
-.list{
+.all-list{
+    display: flex;
+    gap: 24px;
     margin: 0px;
+    padding: 0px;
 }
