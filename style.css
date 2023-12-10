@@ -1,6 +1,7 @@
 body{
     background-color: #181D2B;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 nav{
     display: flex;
@@ -126,4 +127,7 @@ img{
 }
 .img-github-copilot{
     width: 560px;
+}
+.logo-footer{
+    text-align: left;
 }
