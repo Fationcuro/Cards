@@ -2,6 +2,7 @@ body{
     background-color: #181D2B;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    width: 100%;
 }
 nav{
     display: flex;
@@ -123,6 +124,8 @@ img{
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
+    
+
  
 }
 .img-github-copilot{
@@ -137,7 +140,7 @@ img{
   gap: 24px;
   justify-content: space-between;
   align-items: center;
-    
+
 }
 .footer{
     /* display: grid;
