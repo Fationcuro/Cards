@@ -1,5 +1,11 @@
 body{
-    background-color: #181D2B;
+    --color-primary:#181D2B;
+    --color-secondary: rgba(38, 45, 64, 0.2) ;
+    --color-text:#ffffff ;
+    --color-tertiary: rgb(245, 245, 245, 0.1);
+    
+
+    background-color: var(--color-primary);
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     width: 100%;
@@ -8,120 +14,124 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 24px;
+    padding: 1rem 1.5rem;
     
 }
 .logo img{
     /* color: white;
     text-decoration: none; */
-    width: 140px;       
+    width: 8.75rem;       
 }
 .clicked{
     /* display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 24px; */
     display: flex;
-    gap: 24px;
+    gap: 1.5rem;
 }
 .clicked a{
-    color: white;
+    color: var(--color-text);
     list-style: none;
-    gap: 24px;
+    gap: 1.5rem;
     text-decoration: none;
 
 
 }
 .button{
     display: flex;
-    gap: 16px;
+    gap: 1rem;
     flex-wrap: wrap;
 }
 .login-btn{
-    width: 80px;
+    width: 5rem;
     text-align: center;
-    padding: 10px 18px;
-    border-radius: 4px;
-    color: #181D2B;
-    background-color:white ;
-    font-size: 16px;
+    padding: 0.625rem 1.125rem;
+    border-radius: 0.25rem;
+    color: var(--color-primary);
+    background-color:var(--color-text) ;
+    font-size: 1rem;
     text-decoration: none;
     font-weight: 500;
 
 }
 .signup-btn{
     text-align: center;
-    width: 80px;
-    padding: 10px 18px;
+    width: 5rem;
+    padding:  0.625rem 1.125rem;
     text-decoration: none;
-    font-size: 16px;
-    border-radius: 4px;
-    color:white;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    color:var(--color-text);
     font-weight: 500 ;
     /* border: 1px solid rgb(0, 119, 255); */
 }
 .hero-text {
-    color: white;
-    font-size: 24px;
+    color: var(--color-text);
+    font-size: 1.5rem;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 2.5rem;
     width: 100%; 
 }
 main{
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 1.5rem;
     align-items: center;
 }
 img{
-    width: 328px;
-    border-radius: 6px;
+    width: 20.5rem;
+    border-radius: 0.375rem;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: 1s;
 }
 
 .all-box {
-    margin-top: 32px;
+    margin-top: 2rem;
     display: flex;
-    gap: 24px;
+    gap: 1.5rem;
     justify-content: space-around;
     flex-wrap: wrap;
 
 }
 
 .box-1 {
-    background-color: rgba(37, 44, 65, 0.2);
-    padding: 16px;
-    border-radius: 8px;
-    border: 1px solid rgb(245, 245, 245, 0.1);
-    flex: 1;
-    max-width: 380px;
+    background-color: var(--color-secondary);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 0.063rem solid var(--color-tertiary);
+    /* flex: 1; */
+    max-width: 23.75rem;
 
 }
 
 .title {
-    margin: 12px, 0px;
-    color: white;
-    font-size: 20px;
-    margin: 16px 0px;
+    margin: 0.75rem, 0rem;
+    color: var(--color-text);
+    font-size: 1.25rem;
+    margin: 1rem 0rem;
 
 }
 
 .paragraph {
     color: rgb(194, 194, 194);
-    font-size: 16px;
-    margin: 16px 0px;
+    font-size: 1rem;
+    margin: 1rem 0rem;
 
 }
 .all-box-2{
     display: flex;
-    gap: 24px;
+    gap: 1.5rem;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 .other-cards{
     width: 68.875rem;
-    padding: 16px;
-    background-color: rgba(37, 44, 65, 0.2);
-    border: 1px solid rgb(245, 245, 245, 0.1);
-    border-radius: 8px;
+    padding: 1rem;
+    background-color: var(--color-secondary);
+    border: 0.063rem solid var(--color-tertiary);
+    border-radius: 0.5rem;
     display: flex;
     justify-content: space-between;
     
@@ -129,15 +139,15 @@ img{
  
 }
 .img-github-copilot{
-    width: 560px;
+    width: 35rem;
 }
 .content-footer{
-  border-top: 1px solid rgb(245, 245, 245, 0.1);
+  border-top: 0.063rem solid var(--color-tertiary);
   width: 68.875rem;
   /* border-radius: 8px; */
-  padding: 16px ;
+  padding: 1rem;
   display: flex;
-  gap: 24px;
+  gap: 1.5rem;
   justify-content: space-between;
   align-items: center;
 
@@ -148,11 +158,46 @@ img{
     justify-content: space-between; */
 }
 .logo-footer{
-    width: 140px;
+    width: 8.75rem;
 }
 .all-list{
     display: flex;
-    gap: 24px;
-    margin: 0px;
-    padding: 0px;
+    gap: 1.5rem;
+    margin: 0rem;
+    padding: 0rem;
+}
+@media (max-width: 768px) {
+    .all-box,
+    .all-box-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .other-cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 330px;
+        gap: 24px;
+    }
+
+    .img-github-copilot {
+        width: 100%;
+        border-radius: 0.375rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .all-box,
+    .all-box-2,
+    .other-cards {
+        display: grid;  
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .img-github-copilot {
+        width: 100%;
+        border-radius: 0.375rem;
+    }
 }
