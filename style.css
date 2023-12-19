@@ -73,15 +73,23 @@ nav{
     width: 100%; 
 }
 .search{
-    
+    display: grid;
+    justify-content: center;
 }
 .search-input{
     width: 250px;
-    height: 32px;
+    height: 24px;
     border-radius: 4px;
     border: none;
-
+    background-color: var(--color-secondary);
+    padding: 0.5rem 1rem ;
+    
+    color: var(--color-text);
 }
+.search-input:{
+        border:0.063rem solid var(--color-tertiary);
+}
+
 main{
     display: flex;
     flex-direction: column;
