@@ -72,6 +72,16 @@ nav{
     margin-top: 2.5rem;
     width: 100%; 
 }
+.search{
+    
+}
+.search-input{
+    width: 250px;
+    height: 32px;
+    border-radius: 4px;
+    border: none;
+
+}
 main{
     display: flex;
     flex-direction: column;
