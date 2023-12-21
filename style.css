@@ -80,13 +80,13 @@ nav{
     width: 250px;
     height: 24px;
     border-radius: 4px;
-    border: none;
+    border:0.063rem solid var(--color-primary);
     background-color: var(--color-secondary);
     padding: 0.5rem 1rem ;
-    
+
     color: var(--color-text);
 }
-.search-input:{
+.search-input:hover{
         border:0.063rem solid var(--color-tertiary);
 }
 
