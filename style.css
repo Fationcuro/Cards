@@ -160,6 +160,17 @@ img:hover{
 .img-github-copilot{
     width: 35rem;
 }
+.title-content{
+    color: var(--color-text);
+    font-size: 1..5rem;
+    text-align: center;
+}
+.description{
+    color: rgb(194, 194, 194);
+    font-size: 1rem;
+    text-align: center;
+
+}
 .content-footer{
   border-top: 0.063rem solid var(--color-tertiary);
   width: 68.875rem;
