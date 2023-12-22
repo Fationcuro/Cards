@@ -1,6 +1,6 @@
 body{
     --color-primary:#181D2B;
-    --color-secondary: rgba(38, 45, 64, 0.2) ;
+    --color-secondary: #262d4033 ;
     --color-text:#ffffff ;
     --color-tertiary: rgb(245, 245, 245, 0.1);
     
@@ -160,16 +160,31 @@ img:hover{
 .img-github-copilot{
     width: 35rem;
 }
+.contact-page{
+    width: 68.875rem;
+    padding: 1rem;
+    border: 0.063rem solid var(--color-tertiary);
+    border-radius: 0.5rem;
+
+
+}
+.contact-content{
+    display: flex;
+    gap: 24px;
+}
 .title-content{
     color: var(--color-text);
-    font-size: 1..5rem;
     text-align: center;
+    font-size: 2rem;
 }
 .description{
-    color: rgb(194, 194, 194);
+    color:rgb(194, 194, 194);
     font-size: 1rem;
     text-align: center;
-
+}
+.contact-img img{
+    width: 28rem;
+    border-radius: 0.5rem;
 }
 .content-footer{
   border-top: 0.063rem solid var(--color-tertiary);
