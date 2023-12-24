@@ -83,7 +83,6 @@ nav{
     border:0.063rem solid var(--color-primary);
     background-color: var(--color-secondary);
     padding: 0.5rem 1rem ;
-
     color: var(--color-text);
 }
 .search-input:hover{
@@ -171,6 +170,7 @@ img:hover{
 .contact-content{
     display: flex;
     gap: 24px;
+    justify-content: space-between;
 }
 .title-content{
     color: var(--color-text);
@@ -182,9 +182,32 @@ img:hover{
     font-size: 1rem;
     text-align: center;
 }
-.contact-img img{
-    width: 28rem;
-    border-radius: 0.5rem;
+label{
+    color: white   ;
+}
+.name{
+    display: flex;
+    color: var(--color-text);
+    width: 16rem;
+    background-color: var(--color-secondary );
+    border-radius: 0.2rem;
+    padding:0.5rem 1rem;
+    border:  0.063rem solid var(--color-tertiary);
+}
+.last{
+    display: flex;
+    color: var(--color-text);
+    width: 16rem;
+    background-color: var(--color-secondary);
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+    border:  0.063rem solid var(--color-tertiary);
+
+}
+.first-last{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
 }
 .content-footer{
   border-top: 0.063rem solid var(--color-tertiary);
