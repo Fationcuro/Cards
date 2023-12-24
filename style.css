@@ -182,22 +182,32 @@ img:hover{
     font-size: 1rem;
     text-align: center;
 }
+.contact-inputs{
+    display: flex;
+    justify-content: space-between;
+}
+.all-inputes{
+    display: grid ;
+    gap: 16px;
+}
 label{
     color: white   ;
 }
 .name{
-    display: flex;
+    display: grid;
     color: var(--color-text);
-    width: 16rem;
+    width: 10rem;
+    height: 1.5rem;
     background-color: var(--color-secondary );
     border-radius: 0.2rem;
     padding:0.5rem 1rem;
     border:  0.063rem solid var(--color-tertiary);
 }
 .last{
-    display: flex;
+    display: grid;
     color: var(--color-text);
-    width: 16rem;
+    width: 10rem;
+    height: 1.5rem;
     background-color: var(--color-secondary);
     border-radius: 0.2rem;
     padding: 0.5rem 1rem;
@@ -207,6 +217,63 @@ label{
 .first-last{
     display: flex;
     gap: 24px;
+    justify-content: center;
+}
+.email{
+    display: grid;
+    color: var(--color-text);
+    width: 23.813rem;
+    height: 1.5rem;
+    background-color: var(--color-secondary);
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+    border:  0.063rem solid var(--color-tertiary);
+}
+.email-input{
+    display: grid;
+    justify-content: center;
+}
+.phone{
+    display: grid;
+    color: var(--color-text);
+    width: 23.813rem;
+    height: 1.5rem;
+    background-color: var(--color-secondary);
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+    border:  0.063rem solid var(--color-tertiary);
+}
+.number-phone{
+    display: grid;
+    justify-content: center;
+}
+.message{
+    display: grid;
+    color: var(--color-text);
+    width: 23.813rem;
+    height: 6rem;
+    background-color: var(--color-secondary);
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+    border:  0.063rem solid var(--color-tertiary);
+}
+.message-input{
+    display: grid;
+    justify-content: center;
+}
+.btn {
+    width: 23.813rem;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    color: var(--color-primary);
+    background-color:var(--color-text) ;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+.submit-btn{
+    display: flex;
     justify-content: center;
 }
 .content-footer{
