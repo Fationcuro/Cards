@@ -1,8 +1,8 @@
 body{
-    --color-primary:#181D2B;
-    --color-secondary: #262d4033 ;
+    --color-primary:hsl(224, 28%, 13%);
+    --color-secondary: rgba(38, 45, 64, 0.2) ;
     --color-text:#ffffff ;
-    --color-tertiary: rgb(245, 245, 245, 0.1);
+    --color-tertiary: rgba(245, 245, 245, 0.102);
     
 
     background-color: var(--color-primary);
