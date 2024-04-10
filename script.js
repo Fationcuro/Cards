@@ -51,33 +51,57 @@
 
 //Learn function and practice it
 
-function aboutMe (name, lastName, age) {
-    console.log( name + ' '  + lastName + ' ' + age)
-}
-aboutMe('Fation', 'Curo', '18 years old');
+// function aboutMe (name, lastName, age) {
+//     console.log( name + ' '  + lastName + ' ' + age)
+// }
+// aboutMe('Fation', 'Curo', '18 years old');
 
 
 
 
 
-var number1 = 4;
-var number2 = 8;
+// var number1 = 4;
+// var number2 = 8;
 
-function solution(n1, n2) {
-    console.log(n1 + n2);
-}
-solution(number1, number2);
-
-
+// function solution(n1, n2) {
+//     console.log(n1 + n2);
+// }
+// solution(number1, number2);
 
 
-var numri1 = 5;
-var numri2 = 3;
 
-function collect(numri1, numri2) {
-    let amount = numri1 + numri2;
-    return amount;
-  }
 
-  let result = collect (5, 3);
-  console.log(result)
+// var numri1 = 5;
+// var numri2 = 3;
+
+// function collect(numri1, numri2) {
+//     let amount = numri1 + numri2;
+//     return amount;
+//   }
+
+//   let result = collect (5, 3);
+//   console.log(result)
+
+
+//Variables
+// let greetingText = ('Hello Iam Fatjon');
+// alert(greetingText);
+// alert(greetingText);
+// greetingText = 'Hello I/m Fation Curo and I/m UX UI Designer ';
+// alert(greetingText);
+// alert(18);
+
+
+
+//Array
+let figmaSecret = ['Typography', 'Colors', 'Iconography', 'Component'];  
+console.log (figmaSecret[2]);
+
+//Typography is 0
+//Colors is 1
+//Iconography is 2
+//Component is 3
+
+
+//Object
+let presentation = {name:'Fation', lastName:'Curo'}
