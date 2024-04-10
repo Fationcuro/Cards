@@ -93,16 +93,16 @@
 
 
 
-//Array
-let figmaSecret = ['Typography', 'Colors', 'Iconography', 'Component'];  
-console.log (figmaSecret[2]);
+// //Array
+// let figmaSecret = ['Typography', 'Colors', 'Iconography', 'Component'];  
+// console.log (figmaSecret[2]);
 
-//Typography is 0
-//Colors is 1
-//Iconography is 2
-//Component is 3
+// //Typography is 0
+// //Colors is 1
+// //Iconography is 2
+// //Component is 3
 
 
 //Object
-let presentation = {name:'Fation', lastName:'Curo' age:18, living:'Pogradec, Albania'};
+let presentation = {name:'Fation', lastName:'Curo', age:18, living:'Pogradec, Albania'};
 console.log(presentation.living);
