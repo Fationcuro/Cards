@@ -104,4 +104,5 @@ console.log (figmaSecret[2]);
 
 
 //Object
-let presentation = {name:'Fation', lastName:'Curo'}
+let presentation = {name:'Fation', lastName:'Curo' age:18, living:'Pogradec, Albania'};
+console.log(presentation.living);
