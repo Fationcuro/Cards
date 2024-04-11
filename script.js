@@ -103,6 +103,19 @@
 // //Component is 3
 
 
-//Object
-let presentation = {name:'Fation', lastName:'Curo', age:18, living:'Pogradec, Albania'};
-console.log(presentation.living);
+// //Object
+// let presentation = {name:'Fation', lastName:'Curo', age:18, living:'Pogradec, Albania'};
+// console.log(presentation.living);
+
+
+let age = 2024
+let calculateYears = age - 2006;
+console.log(calculateYears);
+
+
+function myFunction(p1, p2) {
+        return p1 * p2;
+      }
+      
+      let result = myFunction(4, 3);
+      console.log(result);
