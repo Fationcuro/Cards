@@ -108,14 +108,40 @@
 // console.log(presentation.living);
 
 
-let age = 2024
-let calculateYears = age - 2006;
-console.log(calculateYears);
+// let age = 2024
+// let calculateYears = age - 2006;
+// console.log(calculateYears);
 
 
-function myFunction(p1, p2) {
-        return p1 * p2;
-      }
+// function general(name) {
+//         return "Hello " + name;
+// }
+// general = ('Fation');
+// console.log(    general);
+
+
+// function age(n1 , n2) {
+//         return n1 - n2;
+//       }
       
-      let result = myFunction(4, 3);
-      console.log(result);
+//       let result = age(2024 , 2006);
+//       console.log(result);
+
+
+
+// Koha e ushtrimeve!
+
+// 1) Krijo tre variabla të reja:
+// - Një variabël që ruan emrin e një kursi online sipas zgjedhjes suaj
+// - Një variabël që ruan çmimin e atij kursi
+// - Një variabël që ruan tre qëllimet kryesore që keni, kur merrni këtë kurs
+// 2) Nxjerr ("alarm") tre vlerat e variablave
+// 3) Provoni të "gruponi" tre variablat së bashku dhe të jepni akoma vlerat e tyre më pas
+// 4) Gjithashtu nxirrni elementin e dytë në variablin tuaj "qëllimet kryesore".
+
+
+let nameCourse = "100 Days Of Code";
+let priceCourse = $150;
+let learnCourse = ['Html', 'Css', 'Javascript'];
+
+alert(nameCourse);
