@@ -139,9 +139,47 @@
 // 3) Provoni të "gruponi" tre variablat së bashku dhe të jepni akoma vlerat e tyre më pas
 // 4) Gjithashtu nxirrni elementin e dytë në variablin tuaj "qëllimet kryesore".
 
+//// Exercise Time!
 
+// 1) Create three new variables:
+//    - A variable that stores the name of an online course of your choice
 let nameCourse = "100 Days Of Code";
-let priceCourse = $150;
+//  - A variable that stores the price of that course
+let priceCourse = 150;
+//A variable that stores the three main goals that you have, when taking this course
 let learnCourse = ['Html', 'Css', 'Javascript'];
 
-alert(nameCourse);
+// Output ("alert") the three variable values
+
+// alert(nameCourse);
+// alert(priceCourse);
+// alert(learnCourse);
+
+
+// let car = {
+//         marke: 'Mercedes-Benz',  
+//         model: 'W203',
+//         fullDescription: function() {  
+//           return this.marke + ' ' + this.model;
+//         }
+//       };
+      
+//       console.log(car.fullDescription()); 
+
+
+// let person = {
+//         name: 'Fation', //property
+//         greet() { //method
+//                 alert('Hello');
+//         }
+// };
+
+// person.greet();
+
+
+//Math operations 
+
+console.log(100 + 4);
+console.log(100 - 4);
+console.log(100 * 4);
+console.log(100 / 4);
