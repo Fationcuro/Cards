@@ -177,9 +177,27 @@ let learnCourse = ['Html', 'Css', 'Javascript'];
 // person.greet();
 
 
-//Math operations 
+// // Math operations (Basic)
 
-console.log(100 + 4);
-console.log(100 - 4);
-console.log(100 * 4);
-console.log(100 / 4);
+// console.log(100 + 4);
+// console.log(100 - 4);
+// console.log(100 * 4);
+// console.log(100 / 4);
+
+
+
+
+// let result =(10 + 3 - 5) * 10;
+// result = 10 * 4;
+// result++; //result = result + 1
+// result--; //result = result - 1
+
+// result += 5; // result = result + 5
+// result -= 5; // result = result - 5
+// result /= 5; // result = result / 5
+// result *= 5; // result = result * 5
+// result = result *= 2;
+// console.log(result);
+
+// console.log('Fation ' + 'Curo');
+console.log('Fation ' - 'Curo')

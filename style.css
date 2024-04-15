@@ -39,7 +39,7 @@ nav{
 }
 .button{
     display: flex;
-    gap: 1rem;
+    gap: 1rem;  
     flex-wrap: wrap;
 }
 .login-btn{
@@ -51,8 +51,7 @@ nav{
     background-color:var(--color-text) ;
     font-size: 1rem;
     text-decoration: none;
-    font-weight: 500;
-
+    font-weight: 700;
 }
 .signup-btn{
     text-align: center;
@@ -62,7 +61,7 @@ nav{
     font-size: 1rem;
     border-radius: 0.25rem;
     color:var(--color-text);
-    font-weight: 500 ;
+    font-weight: 00 ;
     /* border: 1px solid rgb(0, 119, 255); */
 }
 .hero-text {
@@ -212,7 +211,6 @@ label{
     border-radius: 0.2rem;
     padding: 0.5rem 1rem;
     border:  0.063rem solid var(--color-tertiary);
-
 }
 .first-last{
     display: flex;
