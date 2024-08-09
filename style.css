@@ -17,10 +17,12 @@ nav{
     padding: 1rem 1.5rem;
     
 }
+
 .logo img{
     /* color: white;
     text-decoration: none; */
-    width: 8.75rem;       
+    width: 120px;  
+    height: 100px   ;     
 }
 .clicked{
     /* display: grid;
@@ -160,7 +162,7 @@ img:hover{
 }
 .contact-page{
     width: 68.875rem;
-    padding: 1rem;
+    padding: 1.5rem;
     border: 0.063rem solid var(--color-tertiary);
     border-radius: 0.5rem;
 
