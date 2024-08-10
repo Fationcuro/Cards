@@ -305,13 +305,14 @@ label{
     .all-box,
     .all-box-2 {
         display: grid;
-        grid-template-columns: 1fr;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
         gap: 24px;
     }
 
     .other-cards {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr ;
         max-width: 330px;
         gap: 24px;
     }
@@ -328,6 +329,7 @@ label{
     .other-cards {
         display: grid;  
         grid-template-columns: 1fr;
+        max-width: fit-content;
         gap: 16px;
     }
 
